@@ -4,11 +4,13 @@
   "description": "Aubrey Jones E Portfolio",
   "main": "server.js",
   "scripts": {
+    "start": "concurrently --kill-others \"npm install && node server.js\" \"cd client && npm install && npm run start\"",
     "test": "jest"
   },
   "author": "Aubrey Jones Creatives",
   "license": "MIT",
   "dependencies": {
+    "concurrently": "^9.1.2",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "gitignore": "^0.7.0",

@@ -7,6 +7,7 @@ import '../Portfolio.css';
 
 const Chemistry1010 = () => {
   return (
+    // chemistry is great
     <section className="caseStudyTitle">Chemistry 1010 Case Study</section>
   )
 }

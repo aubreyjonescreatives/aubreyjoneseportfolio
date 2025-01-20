@@ -22,7 +22,8 @@ const NavBar = () => {
           >
             <Nav.Link href="/chemistry1010">Chemistry 1010</Nav.Link>
             <Nav.Link href="/math990">Math 990</Nav.Link>
-         
+            <Nav.Link href="/comm1020">Comm 1020</Nav.Link>
+            <Nav.Link href="/fashion1010">Fashion 1010</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -23,8 +23,27 @@ width: 100%;
 }
 
 
+
+/* Fashion 1010 */
+
+.pageTitle {
+    padding: 20px; 
+}
+
+
+.sideNav {
+    padding-left: 20px; 
+}
+
+
+
+
 .footerStyles {
     clear: both; 
     text-align: center; 
 
 }
+
+
+
+
